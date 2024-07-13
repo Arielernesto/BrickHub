@@ -393,7 +393,7 @@ footer a::after{
     width: 50% !important;
   }
   .hero{
-    height: 55vh;
+    height: 45vh;
   }
 }
 @media (max-width: 400px){
