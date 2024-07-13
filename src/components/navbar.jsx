@@ -1,5 +1,11 @@
-import { Link } from "../router"
+import { Link } from "react-router-dom"
+import {useLocation} from 'react-router-dom'
+import { useEffect } from "react";
 function Navbar(){
+  const location = useLocation()
+useEffect(() => {
+  window.scrollTo(0,0)
+}, [location]);
     return (
         <nav className="nav-container navbar-expand-lg">
         <div className="navbar navbar-expand-lg shadow-lg ">

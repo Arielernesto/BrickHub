@@ -1,4 +1,4 @@
-import { Link } from "../router"
+import { Link } from "react-router-dom"
 
 
 export default function Footer(){
@@ -20,7 +20,7 @@ export default function Footer(){
         <li className="nav-item mb-2 mx-2 "><Link to="/projects" className="nav-link p-0 text-center">Proyectos</Link></li>
         <li className="nav-item mb-2 mx-2 "><Link to="/about-our" className="nav-link p-0 text-center">Sobre Nosotros</Link></li>
         <li className="nav-item mb-2 mx-3 "><Link to="/services" className="nav-link p-0 text-center">Servicios</Link></li>
-        <li className="nav-item mb-2 mx-2 "><Link to="contact" className="nav-link p-0 text-center">Contáctenos</Link></li>
+        <li className="nav-item mb-2 mx-2 "><Link to="/contact" className="nav-link p-0 text-center">Contáctenos</Link></li>
       </ul>
     </div>
 

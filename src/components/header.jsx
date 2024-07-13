@@ -1,6 +1,6 @@
 // eslint-disable-next-line react/prop-types
 import Navbar from "./navbar"
-import { Link } from "../router"
+import { Link } from "react-router-dom"
 
 function Header({children}){
     return (

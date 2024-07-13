@@ -1,7 +1,7 @@
 import SecondHero from './components/second-hero.jsx'
 import RecentProjects from './components/Recents-projects.jsx'
 import Footer from './components/footer.jsx'
-import { Link } from './router/Link.jsx'
+import { Link } from 'react-router-dom'
 import Header from './components/header.jsx'
 import Navbar from './components/navbar.jsx'
 import MainHero from './components/mainhero.jsx'
