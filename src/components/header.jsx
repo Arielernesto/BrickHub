@@ -5,6 +5,7 @@ import { Link } from "react-router-dom"
 function Header({children}){
     return (
         <header className="hero">
+            <img src="/bg-main.jpg" alt="" className=" position-absolute  hero-img" />
         <div className=" slice">
 
             <Navbar />
