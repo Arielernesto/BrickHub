@@ -1,0 +1,1 @@
+export const constantes={NAVIGATION_EVENT_NAME:"pushstate"};export const getCurrentPath=()=>window.location.pathname;
