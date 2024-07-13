@@ -132,11 +132,11 @@ export function Contact(){
         <main className=' overflow-hidden '>
         <Navbar></Navbar>
         <Divider section={"Contáctanos"}></Divider>
-        <section className=' m-5'>
+        <section className=' m-0 m-md-5'>
         <div className="container-fluid contact-info mt-5 mb-4">
         <div className="container contact-container">
             <div className="row">
-                <div className="col-md-4 d-flex align-items-center justify-content-center bg-secondary mb-4 mb-lg-0 contact" >
+                <div className="col-md-4  col-12 d-flex align-items-center justify-content-center bg-secondary mb-4 mb-lg-0 contact" >
                     <div className="d-inline-flex">
                         <i className="fa fa-2x fa-map-marker-alt text-white m-0 mr-3"></i>
                         <div className="d-flex flex-column">
@@ -145,7 +145,7 @@ export function Contact(){
                         </div>
                     </div>
                 </div>
-                <div className="col-md-4 d-flex align-items-center justify-content-center bg-primary mb-4 mb-lg-0 contact bg-def" >
+                <div className="col-md-4 col-12 d-flex align-items-center justify-content-center bg-primary mb-4 mb-lg-0 contact bg-def" >
                     <div className="d-inline-flex text-left">
                         <i className="fa fa-2x fa-envelope text-white m-0 mr-3"></i>
                         <div className="d-flex flex-column">
@@ -154,7 +154,7 @@ export function Contact(){
                         </div>
                     </div>
                 </div>
-                <div className="col-md-4 d-flex align-items-center justify-content-center bg-secondary mb-4 mb-lg-0 contact" >
+                <div className="col-md-4 p-2 col-12 d-flex align-items-center justify-content-center bg-secondary mb-4 mb-lg-0 contact" >
                     <div className="d-inline-flex text-left">
                         <i className="fa fa-2x fa-phone-alt text-white m-0 mr-3"></i>
                         <div className="d-flex flex-column">
