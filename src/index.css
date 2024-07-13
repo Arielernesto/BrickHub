@@ -337,12 +337,12 @@ footer a::after{
     height: 30rem;
   }
   .swiper-slide {
-    width: 15rem;
-    height: 36rem;
+    width: 15rem !important;
+    height: 36rem !important; 
   }
   .swiper-slide img{
-    width: 15rem;
-    height: 20rem;
+    width: 15rem !important;
+    height: 20rem !important;
   }
 }
 @media (min-width: 991px){
